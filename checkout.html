@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Checkout Form</title>
+</head>
+<body>
+    <form class="checkout" action="#">
+        <div class="billing-address">
+            <h2>Checkout Form</h2>
+            <h3>Billing Address</h3>
+            <div class="user">
+                <span>Personal Details</span>
+                <input class="firstname" type="text" placeholder="First Name">
+                <input class="surname" type="text" placeholder="Surname">
+                <input class="street-address" type="text" placeholder="Street Address">
+                <input class="region" type="text" placeholder="Region">
+                <input class="city" type="text" placeholder="City/Municipal">
+                <input class="zip-code" type="text" placeholder="Zip Code">
+                <input class="home-number" type="text" placeholder="Home Number">
+                <input class="mobile-number" type="text" placeholder="Mobile Number">
+                <input class="email" type="text" placeholder="Email">
+            </div>
+            <div class="payment">
+                <span>Payment Method</span>
+                <p>
+                    <input class="method" action="#" type="radio" id="visa" name="paymentmethod">
+                    <label for="#">Visa</label>
+                </p>
+                <p>
+                    <input class="method" action="#" type="radio" id="master-card" name="paymentmethod">
+                    <label for="#">Master Card</label>
+                </p>
+                <p>
+                    <input class="method" action="#" type="radio" id="credit-card" name="paymentmethod">
+                    <label for="#">Credit Card</label>
+                </p>
+                <p>
+                    <input class="method" action="#" type="radio" id="cash-on-delivery" name="paymentmethod">
+                    <label for="#">Cash on Delivery</label>
+                </p>
+            </div>
+            <div class="order-option">
+                <button class="backlist">
+                    <a href="index.html">Back to Listing</a>
+                </button>
+                <button class="place-order">Place Order</button>
+            </div>
+
+        </div>
+        <div class="order-summary">
+            <h3>Order Summary</h3>
+            <div class="orders">
+                <p class="order-price">
+                    <span>Blessing Glorifying</span>
+                    <span>$100</span>
+                </p>
+                <p class="order-price">
+                    <span>Ben's Bone</span>
+                    <span>$110</span>
+                </p>
+                <p class="order-price">
+                    <span>Confident Teens</span>
+                    <span>$160</span>
+                </p >
+                <p class="order-price">
+                    <span>The Great Gatsby</span>
+                    <span>$100</span>
+                </p>
+                <p class="order-price">
+                    <span>To Kill a Mockingbird</span>
+                    <span>$100</span>
+                </p>
+            </div>
+            <div class="total">
+                <p >
+                    <span><strong>Total:</strong></span>
+                    <span>$100</span>
+                </p>
+                <p>
+                    <span>Shipping Fee</span>
+                    <span>$100</span>
+                </p>
+                <p>
+                    <span>Total Cost:</span>
+                    <spans><strong>$670</strong></span>
+                </p>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>
