@@ -729,8 +729,6 @@ h2 {
     font-size: 12px;
     font-weight: 900;
     padding: 3px 10px 3px 10px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 2px #1C315E;
     }
     .title {
     display: flex;
@@ -770,7 +768,6 @@ h2 {
     align-items: center;
     justify-content: center;
     height: 35px;
-    /* background-color: aquamarine; */
     }
     .buy-now span{
     font-weight: 600;
