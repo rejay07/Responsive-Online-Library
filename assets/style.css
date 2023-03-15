@@ -21,13 +21,12 @@ body {
     background-color: #d6ebe63d;
 }
 .nav-container {
-    /* background-image: url(/assets/images/view-books.jpg); */
+    background-image: url(/assets/images/view-books.jpg);
     background-size: cover;
-    background-color: #3f372f;
 }
 .nav-content {
     width: 100%;
-    /* background-color: #3560be6b; */
+    background-color: #3560be6b;
     /* background-color: #1f2430; */
     height: 70px;
     display: flex;
